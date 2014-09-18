@@ -2,12 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Author</key>
+	<string>Sebastian Nash</string>
 	<key>Builder Version</key>
 	<string>10600.1.22</string>
 	<key>CFBundleDisplayName</key>
 	<string>TabSwitcher</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.tabswitcher</string>
+	<string>com.sebnash.tabswitcher</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
@@ -21,6 +23,8 @@
 		<key>Scripts</key>
 		<dict/>
 	</dict>
+	<key>Description</key>
+	<string>Changes Safari’s cmd+NUM keyboard shortcut behaviour to that of Google Chrome, iTerm2</string>
 	<key>DeveloperIdentifier</key>
 	<string>85M277XN62</string>
 	<key>ExtensionInfoDictionaryVersion</key>
@@ -28,7 +32,12 @@
 	<key>Permissions</key>
 	<dict>
 		<key>Website Access</key>
-		<dict/>
+		<dict>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
 	</dict>
+	<key>Website</key>
+	<string>http://www.sebnash.com/projects/tabswitcher</string>
 </dict>
 </plist>
